@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            <h2>Formulario de Registro</h2>
+            <div>
+                <label>Nombre: </label><input type="text" name="nombre"
+                    placeholder="nombre" required>
+                <label>Edad: </label><input type="number" name="edad"
+                    placeholder="edad" required>
+                <label>E-mail: </label><input type="text" name="e-mail"
+                    placeholder="e-mail" required>
+            </div>
+            <div>
+                <label for="categoria">Elige tu categoria:</label>
+                <select name="categoria" id="categoria">
+                    <option value="sub-12">Sub-12</option>
+                    <option value="sub-15">Sub-15</option>
+                    <option value="sub-18">Sub-18</option>
+                </select>
+            </div>
+            <div>
+                <label> Delantero:
+                    <input name="posicion" type="radio" value="Delantero">
+
+                </label>
+                <label> Mediocampista:
+                    <input name="posicion" type="radio" value="Mediocampista">
+
+                </label>
+                <label> Defensor:
+                    <input name="posicion" type="radio" value="Defensor">
+
+                </label>
+                <label> Portero:
+                    <input name="posicion" type="radio" value="Portero">
+
+                </label>
+
+            </div>
+            <div>
+                <label for="checkbox">Acepto terminos y condiciones</label>
+                <input id="checkbox" name="malling" type="checkbox"
+                    value="consent">
+            </div>  
+            <div>      
+                <input type="submit">
+            </div>
+        </form>
+    </body>
+</html>
+
+<!--Actividad 6: Crear un Formulario de Registro para un Evento Deportivo
+Objetivo: Diseñar un formulario HTML para inscripciones en un torneo de fútbol.
+
+Instrucciones:
+
+Información Básica: El formulario debe solicitar el nombre completo, la edad y el email del participante.
+Selección de Categoría: Incluir una lista desplegable para que el participante elija la categoría en la que desea participar (e.g., Sub-12, Sub-15, Sub-18).
+Posición en el Campo: Añadir un grupo de botones de opción para seleccionar la posición en la que juega (e.g., Delantero, Mediocampista, Defensa, Portero).
+Términos y Condiciones: Incluir una casilla de verificación para aceptar los términos y condiciones del torneo.
+Botón de Envío: Agregar un botón para enviar el formulario.
+-->
